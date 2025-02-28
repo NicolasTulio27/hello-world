@@ -60,7 +60,7 @@ function App() {
           {gameOver(number) ? (
             <img
               className={`img-win ${gameOver(number) ? "img-win--show" : ""}`}
-              src="../public/you win.gif"
+              src="../public/you_win.gif"
             />
           ) : null}
         </p>
